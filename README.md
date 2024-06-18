@@ -1,4 +1,4 @@
-# API for User-Authentication using NodeJs
+# API for 2F-userAuth using NodeJs
 
 This is user-Authentication API using speakeasy for OTP's, nodemailer to sent OTP's by email & JWT(Jsonwebtoken) .You can log-in just by using email & password.
 
@@ -41,5 +41,4 @@ This API takes email as an user-input,generate base32 secret-key for speakeasy t
 This API takes password,password_confirmation as an user-input(json-format) and header('x-auth-token') for update/change your password.
 #### NOTE:passwords are stored by salting encryption.
 
-# User-authentication-nodejs
-# User-authentication-nodejs
+
